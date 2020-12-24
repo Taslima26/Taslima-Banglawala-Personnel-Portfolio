@@ -31,25 +31,25 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: 'T-V show dom project ',
-    description: `Project made using HTML,CSS,Java script dom.It uses css variables and sass styles.It uses api provided by tvmaze.com.Implement search and drop down functionality using dom.`,
+    description: `Project made using HTML,CSS,Java script dom.It uses css variables and sass styles.It uses api provided by tvmaze.com.Implement search and drop down functionality using dom.This project was part of my course work at Code Your Future.This was the first project I made after I graduated so it is pretty close to my heart.`,
     image: project1,
     link: `https://cyf-taslima26-tv.netlify.app/`,
   },
   {
     name: 'Rock-Paper-Scissor-Dom',
-    description: `This is classic Rock paper scissor game made using html,css and java script dom manipulation.It is made with lots of css and lots of love .My daughters have lots of fun playing with one of the cool app their mom made.`,
+    description: `This is classic Rock paper scissor game made using html,css and java script dom manipulation.It is made with lots of css and lots of love .My daughters have lots of fun playing with one of the cool app their mom made. I made this project as extra challenge while learning javacript modules at CODE YOUR FUTURE.`,
     image: project2,
     link: `https://rock-paper-scissorodom.netlify.app/`,
   },
   {
     name: 'Baby-names-react',
-    description: `This is one of the challange provided on frontend mentor.It implemented using create react app and use json file as data.It provides names of poplular baby names.It is also implement filtering functionality between girls and boys names.  `,
+    description: `This is one of the challenge provided on frontend mentor.It implemented using create react app and use json file as data.It provides names of poplular baby names.It is also implement filtering functionality between girls and boys names.I made this project as extra while learning React module at Code Your Future  `,
     image: project3,
     link: `http://taslima26.github.io/baby-names-react`,
   },
   {
     name: 'Countries-React',
-    description: `This is one of the challange provided on front end mentor.It fetches countries api.Display all countries detail in a grid.It also includes search and dropdown functionality.It also implement theme switcher using css variables and toggles theme between dark and light background `,
+    description: `This is one of the challange provided on front end mentor.It fetches countries api.Display all countries detail in a grid.It also includes search and dropdown functionality.It also implement theme switcher using css variables and toggles theme between dark and light background .I made this project as extra while learning React module with Code Your Future `,
     image: project4,
     link: `https://cyf-countries-react.herokuapp.com/`,
   },
