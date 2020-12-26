@@ -36,7 +36,14 @@ const CV = () => {
             startYear={2006}
             endYear={2010}
             schoolName='Veer Narmad South Gujrat University'
-            schoolDescription=""
+            schoolDescription='Algorithm Analysis and Design
+          Principal of Programming Language.
+Data Structures and Programming Methodology
+Software Engineering Methodology
+Probability and Statistics
+Computer Networks
+Artificial Intelligence
+'
           />
 
           <Education
@@ -45,29 +52,48 @@ const CV = () => {
             schoolName='My 2nd University'
             schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
           />
-          <hr style={{ borderTop: '3px solid #e22947' }} />
+          <hr style={{ borderTop: '3px solid purple' }} />
 
           <h2>Experience</h2>
 
           <Experience
-            startYear={2009}
-            endYear={2012}
-            jobName='First Job'
-            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            startYear={2020}
+            endYear={2019}
+            jobName='Full Stack Developer -Code Your Future '
+            jobDescription='Code Your Future is a 9 months full stack web developer training program which ends with a
+fully working end product where React as front end and Node and sql as a back end.
+During the last 6 weeks of the project we gain various experience working in a team ,flow
+management and agile development.
+● Developed programming skills through a full-time intensive bootcamp.
+● TDD and pair programming practised throughout the course.
+● Full-stack development learnt through lectures, sprints, assessments and projects
+'
           />
 
           <Experience
-            startYear={2012}
-            endYear={2016}
-            jobName='Second Job'
-            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            startYear={2017}
+            endYear={2020}
+            jobName='Self-employed- Ebay Seller'
+            jobDescription='While I was raising my young family ,I was unable to go to work due to my childcare issue.I
+        decided to work from home and after doing market research I figure out high end art craft supply
+        gap in UK and decided to outsource small quantity and market on Ebay.This way I had made
+      successful living out of this for about two years.
+    ● Research customer requirements.
+● Maintain website listing and inventory.
+● Successfully dispatch the orders on time.
+● Communicate with customers throughout.
+Classroom assistant -Deepdale Community School-June-2016-May-2018
+I started work as a volunteer in my local school to fill up a couple of hours in the afternoon and I
+really enjoyed working with children .Therefore when there was a temporary contract role school
+decided to give me a paid job.'
           />
-          <hr style={{ borderTop: '3px solid #e22947' }} />
+          <hr style={{ borderTop: '3px solid purple' }} />
           <h2>Skills</h2>
           <Skills skill='javascript' progress={100} />
           <Skills skill='HTML/CSS' progress={80} />
-          <Skills skill='NodeJS' progress={50} />
-          <Skills skill='React' progress={25} />
+          <Skills skill='NodeJS' progress={80} />
+          <Skills skill='React' progress={85} />
+          <Skills skill='SQL' progress={85} />
         </Cell>
       </Grid>
     </div>

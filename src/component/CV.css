@@ -1,5 +1,9 @@
 .resume-right-col {
-  background: #27221F;
+  background:#233 ;
   color: white;
   padding: 2em;
+}
+
+.display-linebreak {
+  white-space: pre-line;
 }

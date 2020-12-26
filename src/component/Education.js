@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import './CV.css';
 
-const Education = ({startYear,endYear,schoolDescription,schoolName}) => {
+const Education = ({ startYear, endYear, schoolDescription, schoolName }) => {
   return (
     <Grid>
       <Cell col={4}>
@@ -11,7 +12,7 @@ const Education = ({startYear,endYear,schoolDescription,schoolName}) => {
       </Cell>
       <Cell col={8}>
         <h4 style={{ marginTop: '0px' }}>{schoolName}</h4>
-        <p>{schoolDescription}</p>
+        <p className='display-linebreak'>{schoolDescription}</p>
       </Cell>
     </Grid>
   );
