@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import './CV.css';
 
 const Experience =({startYear,endYear,jobName,jobDescription})=>{
   
@@ -12,7 +13,7 @@ const Experience =({startYear,endYear,jobName,jobDescription})=>{
         </Cell>
         <Cell col={8}>
           <h4 style={{ marginTop: '0px' }}>{jobName}</h4>
-          <p>{jobDescription}</p>
+          <p className='display-linebreak'>{jobDescription}</p>
         </Cell>
       </Grid>
     );

@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import Certifications from './Certifications';
 import './CV.css';
 const CV = () => {
   return (
@@ -47,10 +48,12 @@ Artificial Intelligence
           />
 
           <Education
-            startYear={2007}
-            endYear={2009}
-            schoolName='My 2nd University'
-            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            startYear={2014}
+            endYear={2016}
+            schoolName='Preston College'
+            schoolDescription='Level-3 Supporting Teaching and Learning in Schools.
+    
+'
           />
           <hr style={{ borderTop: '3px solid purple' }} />
 
@@ -83,10 +86,35 @@ management and agile development.
 ● Successfully dispatch the orders on time.
 ● Communicate with customers throughout.
 Classroom assistant -Deepdale Community School-June-2016-May-2018
-I started work as a volunteer in my local school to fill up a couple of hours in the afternoon and I
-really enjoyed working with children .Therefore when there was a temporary contract role school
-decided to give me a paid job.'
+'
           />
+          <Experience
+            startYear='June-2016'
+            endYear='May-2018'
+            jobName='Teacher Assistant'
+            jobDescription='I started work as a volunteer in my local school to fill up a couple of hours in the afternoon and I really enjoyed working with children .Therefore when there was a temporary contract role school decided to give me a paid job.'
+          />
+          <Experience
+            startYear='June-2020'
+            endYear='January-2012'
+            jobName='Sales Assistant'
+            jobDescription='In a busy ,bustling perfume shop I got some valuable communication skills and customer service experience. I approach customers and talk about different fragrances and prices, offer them samples and take back their feedback.'
+          />
+          <hr style={{ borderTop: '3px solid purple' }} />
+          <h2>Certifications</h2>
+          <Certifications
+            startDate='November 11, 2015'
+            certificationName='Microsoft Specialist: Programming in C#'
+          />
+          <Certifications
+            startDate='February 10, 2015'
+            certificationName='Microsoft® Certified Solutions Associate: SQL Server 2012/2014'
+          />
+          <Certifications
+            startDate='May 27, 2014'
+            certificationName='Microsoft Certified Professional'
+          />
+
           <hr style={{ borderTop: '3px solid purple' }} />
           <h2>Skills</h2>
           <Skills skill='javascript' progress={100} />

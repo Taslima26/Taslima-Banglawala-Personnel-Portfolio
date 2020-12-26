@@ -14,7 +14,7 @@ import project1 from '../images/html-css-javascript-lg.54fd4234.jpg';
 import project2 from '../images/html-css-javascript-lg.54fd4234.jpg';
 import project3 from '../images/react.png';
 import project4 from '../images/react.png';
-import project5 from '../images/react.png';
+import project5 from '../images/html-css-black-background.jpeg';
 import project6 from '../images/mernstack.png';
 
 const useStyles = makeStyles((theme) => ({
