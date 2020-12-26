@@ -34,24 +34,28 @@ const projects = [
     description: `Project made using HTML,CSS,Java script dom.It uses css variables and sass styles.It uses api provided by tvmaze.com.Implement search and drop down functionality using dom.This project was part of my course work at Code Your Future.This was the first project I made after I graduated so it is pretty close to my heart.`,
     image: project1,
     link: `https://cyf-taslima26-tv.netlify.app/`,
+    codeLink: `https://github.com/Taslima26/tv-show-dom-project`,
   },
   {
     name: 'Rock-Paper-Scissor-Dom',
     description: `This is classic Rock paper scissor game made using html,css and java script dom manipulation.It is made with lots of css and lots of love .My daughters have lots of fun playing with one of the cool app their mom made. I made this project as extra challenge while learning javacript modules at CODE YOUR FUTURE.`,
     image: project2,
     link: `https://rock-paper-scissorodom.netlify.app/`,
+    codeLink: `https://github.com/Taslima26/Rock-Paper-Scissors-Dom`,
   },
   {
     name: 'Baby-names-react',
     description: `This is one of the challenge provided on frontend mentor.It implemented using create react app and use json file as data.It provides names of poplular baby names.It is also implement filtering functionality between girls and boys names.I made this project as extra while learning React module at Code Your Future  `,
     image: project3,
     link: `http://taslima26.github.io/baby-names-react`,
+    codeLink: `https://github.com/Taslima26/baby-names-react`,
   },
   {
     name: 'Countries-React',
     description: `This is one of the challange provided on front end mentor.It fetches countries api.Display all countries detail in a grid.It also includes search and dropdown functionality.It also implement theme switcher using css variables and toggles theme between dark and light background .I made this project as extra while learning React module with Code Your Future `,
     image: project4,
     link: `https://cyf-countries-react.herokuapp.com/`,
+    codeLink: `https://github.com/Taslima26/countries-react`,
   },
   {
     name: 'Project 5',
@@ -66,6 +70,7 @@ const projects = [
     description: `This app was made as my final project.It is fully functional pern stack deployed on heroku.It uses material ui for styling .It uses lots of advance react functionlity such as react-router-dom and history hooks.users are able to login using github api.Authorize users able to use CRUD functionality.Non authoize user are able to read all the blog and provide rating for it.Please check it out.Its cool!!!`,
     image: project6,
     link: `https://cyf-blog-app.herokuapp.com`,
+    codeLink: `https://github.com/Taslima26/cyf-final-project-pgsql-starter-kit`,
   },
 ];
 
@@ -95,8 +100,15 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size='small' color='primary'>
-                  Share
+                <Button
+                  size='small'
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = project.codeLink;
+                  }}
+                  color='primary'
+                >
+                  Code
                 </Button>
                 <Button
                   size='small'
