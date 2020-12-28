@@ -19,8 +19,7 @@ import Apps from '@material-ui/icons/Apps';
 import ContactMail from '@material-ui/icons/ContactMail';
 import { makeStyles } from '@material-ui/core/styles';
 import avatar from '../images/avatar.png';
-
-// import Footer from '../components/Footer';
+import Footer from './Footer';
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -101,7 +100,7 @@ const SideBar = () => {
       </Box>
       <Drawer open={open} anchor='right' onClose={() => setOpen(false)}>
         {sideList()}
-        {/* <Footer /> */}
+        <Footer /> 
       </Drawer>
     </React.Fragment>
   );

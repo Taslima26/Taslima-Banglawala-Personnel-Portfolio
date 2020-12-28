@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import Project from './component/Project';
 import Contact from './component/Contact';
 import CV from './component/CV';
+import Footer from './component/Footer';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/cv' component={CV} />
       </Switch>
+      
     </>
   );
 }

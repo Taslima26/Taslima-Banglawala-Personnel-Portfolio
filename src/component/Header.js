@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import Typed from 'react-typed';
 import { makeStyles } from '@material-ui/core/styles';
 import avatar from '../images/my-image.jpg';
+import Footer from './Footer.js'
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 const Header = () => {
   const classes = useStyles();
 
-  return (
+  return (<>
     <Box className={classes.typedContainer}>
       <Grid container justify='center'>
         <Avatar
@@ -56,6 +57,8 @@ const Header = () => {
         />
       </Typography>
     </Box>
+   
+    </>
   );
 };
 
